@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "698204516302",
+    "firebase_url": "https://authemailpass-14d71.firebaseio.com",
+    "project_id": "authemailpass-14d71",
+    "storage_bucket": "authemailpass-14d71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698204516302:android:b8d5114a0bc23e0d",
+        "android_client_info": {
+          "package_name": "com.oscarcelis.authemailpass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698204516302-ocv9ktvtuo0v6m26fc8i8ooo991j94fu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.oscarcelis.authemailpass",
+            "certificate_hash": "8c2bcf9bed57e5ad2656830b8d9dde2c63ed7dbd"
+          }
+        },
+        {
+          "client_id": "698204516302-vqdpjfnqtsdj5f9fjleju590kk9ekql3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_CrKlzP999-sdyeUbnWvf-MOEKbs5SWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698204516302-vqdpjfnqtsdj5f9fjleju590kk9ekql3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

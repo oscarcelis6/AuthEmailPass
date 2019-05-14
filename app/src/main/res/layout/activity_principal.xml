@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Principal">
+
+    <Button
+        android:id="@+id/btnSignOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="64dp"
+        android:text="Cerrar sesión"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnCambiarClave"
+        android:layout_width="161dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="16dp"
+        android:text="Cambiar clave"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignOut"
+        app:layout_constraintEnd_toEndOf="@+id/btnSignOut"
+        app:layout_constraintStart_toStartOf="@+id/btnSignOut" />
+
+    <TextView
+        android:id="@+id/txtCurrentUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="Digite nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/edtId"
+        app:layout_constraintStart_toStartOf="@+id/edtId"
+        app:layout_constraintTop_toBottomOf="@+id/edtId" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="24dp"
+        android:editable="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btnConsultarDato"
+        app:layout_constraintEnd_toEndOf="@+id/edtNombre"
+        app:layout_constraintStart_toStartOf="@+id/edtNombre"
+        app:layout_constraintTop_toBottomOf="@+id/edtNombre" />
+
+    <Button
+        android:id="@+id/btnInsertarDatosUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Insertar datos"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCambiarClave"
+        app:layout_constraintEnd_toEndOf="@+id/btnCambiarClave"
+        app:layout_constraintStart_toStartOf="@+id/btnCambiarClave" />
+
+    <Button
+        android:id="@+id/btnConsultarDato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Consultar dato"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnInsertarDatosUsuario"
+        app:layout_constraintEnd_toEndOf="@+id/btnInsertarDatosUsuario"
+        app:layout_constraintStart_toStartOf="@+id/btnInsertarDatosUsuario" />
+
+    <EditText
+        android:id="@+id/edtId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="Digite DNI"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCurrentUser" />
+</android.support.constraint.ConstraintLayout>
